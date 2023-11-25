@@ -7,6 +7,8 @@ public class ReverseArray {
     public static void main(String[] args) {
         int[] arr = new int[]{1,3,5,7,9};
 
+        System.out.println(Arrays.toString(arr));
+
         reverseArray(arr);
 
         System.out.println(Arrays.toString(arr));
