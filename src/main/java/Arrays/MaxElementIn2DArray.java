@@ -1,8 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-import java.util.Scanner;
-
 public class MaxElementIn2DArray {
     public static void main(String[] args) {
         int[][] arr = {
@@ -10,7 +7,6 @@ public class MaxElementIn2DArray {
                 {14,19},
                 {27,24,23,29}
         };
-        Scanner scanner = new Scanner(System.in);
 
         System.out.println(maxElement(arr));
     }

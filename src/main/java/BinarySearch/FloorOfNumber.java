@@ -10,7 +10,7 @@ public class FloorOfNumber {
     }
 
 
-    // index of smallest number greater than or equal to target
+    // index of greatest number smaller than or equal to target
     private static int floor(int[] arr, int target) {
         int start=0;
         int end = arr.length - 1;

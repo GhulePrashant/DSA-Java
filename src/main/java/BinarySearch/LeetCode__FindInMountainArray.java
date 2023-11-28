@@ -2,6 +2,12 @@ package BinarySearch;
 
 public class LeetCode__FindInMountainArray {
 
+    /**
+     * Find peak element
+     * then search in left part
+     * if not found in left part, search in right part
+     */
+
     public static void main(String[] args) {
         int[] nums = {1,2,3,4,5,3,1};
         int target = 3;

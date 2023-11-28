@@ -6,7 +6,8 @@ import java.util.Arrays;
  * Find First and Last Position of Element in Sorted Array
  * https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  *
- * Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+ * Given an array of integers nums sorted in non-decreasing order,
+ * find the starting and ending position of a given target value.
  *
  * If target is not found in the array, return [-1, -1].
  *
@@ -37,6 +38,18 @@ import java.util.Arrays;
  */
 
 public class LeetCode__FindFirstAndLastPositionOfElementInSortedArray {
+
+    /**
+     * Approach
+     * As array is sorted, we'll use binarySearch.
+     * We can call binarySearch twice, 1st for first position and 2nd time for last position
+     * Instead of returning mid element, we'll save mid element in ans variable as a possible ans
+     * And loop will continue until start<=end
+     * in the condition where mid is found, we can add a flag to check if we're finding first or last position
+     * for first position, we'll update our end = mid -1
+     * for last position, we'll update start = mid + 1
+     * we'll return ans
+     */
     public static void main(String[] args) {
         int[] nums = {5,7,7,8,8,10};
         int target = 8;
