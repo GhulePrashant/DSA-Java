@@ -6,7 +6,7 @@ public class FloorOfNumber {
 
         int target = 15;
 
-        System.out.println("Ceiling : "+ floor(arr, target));
+        System.out.println("Floor : "+ floor(arr, target));
     }
 
 

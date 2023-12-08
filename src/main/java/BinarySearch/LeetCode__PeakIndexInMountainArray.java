@@ -8,8 +8,6 @@ package BinarySearch;
  * 852. Peak Index in a Mountain Array
  *
  * Medium
- * Topics
- * Companies
  * An array arr is a mountain if the following properties hold:
  *
  * arr.length >= 3
@@ -20,21 +18,17 @@ package BinarySearch;
  *
  * You must solve it in O(log(arr.length)) time complexity.
  *
- *
- *
  * Example 1:
- *
  * Input: arr = [0,1,0]
  * Output: 1
- * Example 2:
  *
+ * Example 2:
  * Input: arr = [0,2,1,0]
  * Output: 1
- * Example 3:
  *
+ * Example 3:
  * Input: arr = [0,10,5,2]
  * Output: 1
- *
  *
  * Constraints:
  *
