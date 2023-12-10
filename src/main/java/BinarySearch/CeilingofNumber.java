@@ -3,11 +3,11 @@ package BinarySearch;
 /**
  * Ceiling = smallest element in array greater or equal to target
  */
-public class CeilingOfNumber {
+public class CeilingofNumber {
     public static void main(String[] args) {
         int[] arr = {2,3,5,9,14,16,18};
 
-        int target = 18;
+        int target = 15;
 
         System.out.println("Ceiling : "+ceiling(arr, target));
     }

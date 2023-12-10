@@ -8,8 +8,6 @@ package BinarySearch;
  *
  * Return the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters.
  *
- *
- *
  * Example 1:
  *
  * Input: letters = ["c","f","j"], target = "a"
