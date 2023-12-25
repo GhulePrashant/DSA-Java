@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class FactorOfNumber {
     public static void main(String[] args) {
-        int n = 20;
+        int n = 36;
 
         printAllFactors(n);
         System.out.println();
