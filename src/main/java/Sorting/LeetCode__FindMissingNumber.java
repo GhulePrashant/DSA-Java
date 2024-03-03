@@ -2,7 +2,7 @@ package Sorting;
 
 public class LeetCode__FindMissingNumber {
     public static void main(String[] args) {
-        int[] arr = {3,1,0,6,4,2,3};
+        int[] arr = {3,1,0,6,4,2};
 
         System.out.println(missingNumber(arr));
 
