@@ -2,7 +2,7 @@ package MathsAndBits;
 
 public class GCD_LCM {
     public static void main(String[] args) {
-        int a = 20, b = 25;
+        int a = 25, b = 20;
 
         System.out.println(gcd(a,b));
 
