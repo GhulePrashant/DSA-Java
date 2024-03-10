@@ -2,7 +2,7 @@ package Recursion;
 
 public class FactorialOfNumber {
     public static void main(String[] args) {
-        System.out.println(factorial(8));
+        System.out.println(factorial(4));
     }
 
     private static int factorial(int n) {

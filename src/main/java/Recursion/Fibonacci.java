@@ -2,7 +2,7 @@ package Recursion;
 
 public class Fibonacci {
     public static void main(String[] args) {
-        int n = 19;
+        int n = 5;
         System.out.println(printFibonacci(n));
 
     }
