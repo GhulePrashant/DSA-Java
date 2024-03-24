@@ -6,8 +6,8 @@ public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {1,5,3,7,2,9,4,6,8};
         int[] sortArr = {1,2,3,4,5,6,7,8,9};
-        bubbleSort(sortArr);
-        System.out.println(Arrays.toString(sortArr));
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
 //        System.out.println(Arrays.toString(sortArr));
 
     }
